@@ -2,6 +2,8 @@ Knight Online TBL Reader
 ==============================
 This simple application designed to read knight online tbl files. We do not support edit right now... *There is an issue with 1886 tbl files, decryption doesn't work right. I hope some ppl helps about it :D*
 
+📖 **[Read the TBL File Format Documentation](KNIGHT_ONLINE_TBL_FORMAT.md)** - Complete technical explanation of how .tbl files are read, decrypted, and parsed.
+
 ![](doc/cmd.gif)
 
 Install
