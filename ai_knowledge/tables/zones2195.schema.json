@@ -1,0 +1,62 @@
+{
+  "table": {
+    "tblFile": "zones2195.tbl",
+    "baseName": "zones2195",
+    "rowCount": 0,
+    "columnCount": 0,
+    "tableRole": "unknown"
+  },
+  "schema": {
+    "columns": [],
+    "source": "ko-tbl-reader parser (read-only)"
+  },
+  "semanticContext": {
+    "title": "zones2195 (unparsed)",
+    "description": "Table could not be parsed: Cannot read properties of undefined (reading 'readInt32LE')",
+    "domain": "system",
+    "tags": [
+      "error"
+    ],
+    "confidence": 0.1,
+    "tableRole": "unknown",
+    "rowInterpretation": "No row interpretation available because parsing failed."
+  },
+  "deductions": {
+    "guesses": [
+      {
+        "statement": "Parsing failed, so semantics are unknown.",
+        "confidence": 0.1,
+        "evidence": [
+          "parser-error"
+        ]
+      }
+    ],
+    "relationships": []
+  },
+  "examples": {
+    "sampleRows": [],
+    "rowInterpretation": "No samples available because input could not be decoded."
+  },
+  "aiGuidance": {
+    "useCases": [
+      "Configuration explanation",
+      "Legacy data decoding",
+      "Automated cleanup prompts"
+    ],
+    "safeEdits": [
+      "Documenting discovered meaning",
+      "Adding new rows in unused ranges",
+      "Annotating optional columns"
+    ],
+    "dangerousEdits": [
+      "Changing control flags",
+      "Removing unknown columns",
+      "Overwriting IDs with unclear usage"
+    ],
+    "commonQuestions": [
+      "What does this flag represent?",
+      "How is this table consumed?",
+      "Is it safe to add new rows?"
+    ]
+  }
+}

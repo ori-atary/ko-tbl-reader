@@ -4,7 +4,8 @@
   "description": "Knight online tbl file reader",
   "main": "lib/reader_direct.js",
   "scripts": {
-    "test": "node test/test"
+    "test": "node test/test",
+    "gen:ai-knowledge": "node tools/gen_ai_knowledge.js"
   },
   "bin": {
     "tblread": "./bin/tblread.js"

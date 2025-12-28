@@ -1,0 +1,563 @@
+{
+  "table": {
+    "tblFile": "Item_Ext_1_us.tbl",
+    "baseName": "Item_Ext_1_us",
+    "rowCount": 254,
+    "columnCount": 53,
+    "tableRole": "content"
+  },
+  "schema": {
+    "columns": [
+      {
+        "name": "id",
+        "type": "int32",
+        "nullable": false,
+        "isLikelyKey": true,
+        "notes": "Name provided by schema detector"
+      },
+      {
+        "name": "prefix",
+        "type": "string",
+        "nullable": true,
+        "isLikelyKey": false,
+        "notes": "Name provided by schema detector"
+      },
+      {
+        "name": "baseID",
+        "type": "int32",
+        "nullable": false,
+        "isLikelyKey": false,
+        "notes": "Name provided by schema detector"
+      },
+      {
+        "name": "description",
+        "type": "string",
+        "nullable": false,
+        "isLikelyKey": false,
+        "notes": "Name provided by schema detector"
+      },
+      {
+        "name": "flag_5",
+        "type": "int32",
+        "nullable": false,
+        "isLikelyKey": false,
+        "notes": ""
+      },
+      {
+        "name": "resrcID",
+        "type": "int32",
+        "nullable": false,
+        "isLikelyKey": false,
+        "notes": "Name provided by schema detector"
+      },
+      {
+        "name": "iconID",
+        "type": "int32",
+        "nullable": false,
+        "isLikelyKey": false,
+        "notes": "Name provided by schema detector"
+      },
+      {
+        "name": "magicOrRare",
+        "type": "int32",
+        "nullable": false,
+        "isLikelyKey": false,
+        "notes": "Name provided by schema detector"
+      },
+      {
+        "name": "damage",
+        "type": "int32",
+        "nullable": false,
+        "isLikelyKey": false,
+        "notes": "Name provided by schema detector"
+      },
+      {
+        "name": "attackIntervalRatio",
+        "type": "int32",
+        "nullable": false,
+        "isLikelyKey": false,
+        "notes": "Name provided by schema detector"
+      },
+      {
+        "name": "hitRate",
+        "type": "int32",
+        "nullable": false,
+        "isLikelyKey": false,
+        "notes": "Name provided by schema detector"
+      },
+      {
+        "name": "evationRate",
+        "type": "int32",
+        "nullable": false,
+        "isLikelyKey": false,
+        "notes": "Name provided by schema detector"
+      },
+      {
+        "name": "maxDurability",
+        "type": "int32",
+        "nullable": false,
+        "isLikelyKey": false,
+        "notes": "Name provided by schema detector"
+      },
+      {
+        "name": "priceMultiply",
+        "type": "int32",
+        "nullable": false,
+        "isLikelyKey": false,
+        "notes": "Name provided by schema detector"
+      },
+      {
+        "name": "defense",
+        "type": "int32",
+        "nullable": false,
+        "isLikelyKey": false,
+        "notes": "Name provided by schema detector"
+      },
+      {
+        "name": "damageFire",
+        "type": "int32",
+        "nullable": false,
+        "isLikelyKey": false,
+        "notes": "Name provided by schema detector"
+      },
+      {
+        "name": "damageIce",
+        "type": "int32",
+        "nullable": false,
+        "isLikelyKey": false,
+        "notes": "Name provided by schema detector"
+      },
+      {
+        "name": "damageLightning",
+        "type": "int32",
+        "nullable": false,
+        "isLikelyKey": false,
+        "notes": "Name provided by schema detector"
+      },
+      {
+        "name": "damagePoison",
+        "type": "int32",
+        "nullable": false,
+        "isLikelyKey": false,
+        "notes": "Name provided by schema detector"
+      },
+      {
+        "name": "hpAbsorption",
+        "type": "int32",
+        "nullable": false,
+        "isLikelyKey": false,
+        "notes": "Name provided by schema detector"
+      },
+      {
+        "name": "mpDamage",
+        "type": "int32",
+        "nullable": false,
+        "isLikelyKey": false,
+        "notes": "Name provided by schema detector"
+      },
+      {
+        "name": "mpAbsorption",
+        "type": "int32",
+        "nullable": false,
+        "isLikelyKey": false,
+        "notes": "Name provided by schema detector"
+      },
+      {
+        "name": "physicalHitReflection",
+        "type": "int32",
+        "nullable": false,
+        "isLikelyKey": false,
+        "notes": "Name provided by schema detector"
+      },
+      {
+        "name": "soulBind",
+        "type": "int32",
+        "nullable": false,
+        "isLikelyKey": false,
+        "notes": "Name provided by schema detector"
+      },
+      {
+        "name": "strStatBonus",
+        "type": "int32",
+        "nullable": false,
+        "isLikelyKey": false,
+        "notes": "Name provided by schema detector"
+      },
+      {
+        "name": "staStatBonus",
+        "type": "int32",
+        "nullable": false,
+        "isLikelyKey": false,
+        "notes": "Name provided by schema detector"
+      },
+      {
+        "name": "dexStatBonus",
+        "type": "int32",
+        "nullable": false,
+        "isLikelyKey": false,
+        "notes": "Name provided by schema detector"
+      },
+      {
+        "name": "intStatBonus",
+        "type": "int32",
+        "nullable": false,
+        "isLikelyKey": false,
+        "notes": "Name provided by schema detector"
+      },
+      {
+        "name": "mpStatBonus",
+        "type": "int32",
+        "nullable": false,
+        "isLikelyKey": false,
+        "notes": "Name provided by schema detector"
+      },
+      {
+        "name": "hpBonus",
+        "type": "int32",
+        "nullable": false,
+        "isLikelyKey": false,
+        "notes": "Name provided by schema detector"
+      },
+      {
+        "name": "mpBonus",
+        "type": "int32",
+        "nullable": false,
+        "isLikelyKey": false,
+        "notes": "Name provided by schema detector"
+      },
+      {
+        "name": "fireResistance",
+        "type": "int32",
+        "nullable": false,
+        "isLikelyKey": false,
+        "notes": "Name provided by schema detector"
+      },
+      {
+        "name": "iceResistance",
+        "type": "int32",
+        "nullable": false,
+        "isLikelyKey": false,
+        "notes": "Name provided by schema detector"
+      },
+      {
+        "name": "lightningResistance",
+        "type": "int32",
+        "nullable": false,
+        "isLikelyKey": false,
+        "notes": "Name provided by schema detector"
+      },
+      {
+        "name": "magicResistance",
+        "type": "int32",
+        "nullable": false,
+        "isLikelyKey": false,
+        "notes": "Name provided by schema detector"
+      },
+      {
+        "name": "poisonResistance",
+        "type": "int32",
+        "nullable": false,
+        "isLikelyKey": false,
+        "notes": "Name provided by schema detector"
+      },
+      {
+        "name": "curseResistance",
+        "type": "int32",
+        "nullable": false,
+        "isLikelyKey": false,
+        "notes": "Name provided by schema detector"
+      },
+      {
+        "name": "effectID1",
+        "type": "int32",
+        "nullable": false,
+        "isLikelyKey": true,
+        "notes": "Name provided by schema detector"
+      },
+      {
+        "name": "effectID2",
+        "type": "int32",
+        "nullable": false,
+        "isLikelyKey": false,
+        "notes": "Name provided by schema detector"
+      },
+      {
+        "name": "needLevel",
+        "type": "int32",
+        "nullable": false,
+        "isLikelyKey": false,
+        "notes": "Name provided by schema detector"
+      },
+      {
+        "name": "needRank",
+        "type": "int32",
+        "nullable": false,
+        "isLikelyKey": false,
+        "notes": "Name provided by schema detector"
+      },
+      {
+        "name": "needTitle",
+        "type": "int32",
+        "nullable": false,
+        "isLikelyKey": false,
+        "notes": "Name provided by schema detector"
+      },
+      {
+        "name": "needStr",
+        "type": "int32",
+        "nullable": false,
+        "isLikelyKey": false,
+        "notes": "Name provided by schema detector"
+      },
+      {
+        "name": "needStamina",
+        "type": "int32",
+        "nullable": false,
+        "isLikelyKey": false,
+        "notes": "Name provided by schema detector"
+      },
+      {
+        "name": "needDex",
+        "type": "int32",
+        "nullable": false,
+        "isLikelyKey": false,
+        "notes": "Name provided by schema detector"
+      },
+      {
+        "name": "needInt",
+        "type": "int32",
+        "nullable": false,
+        "isLikelyKey": false,
+        "notes": "Name provided by schema detector"
+      },
+      {
+        "name": "needMp",
+        "type": "int32",
+        "nullable": false,
+        "isLikelyKey": false,
+        "notes": "Name provided by schema detector"
+      },
+      {
+        "name": "flag_48",
+        "type": "int32",
+        "nullable": false,
+        "isLikelyKey": false,
+        "notes": ""
+      },
+      {
+        "name": "column_49",
+        "type": "int32",
+        "nullable": false,
+        "isLikelyKey": false,
+        "notes": ""
+      },
+      {
+        "name": "flag_50",
+        "type": "int32",
+        "nullable": false,
+        "isLikelyKey": false,
+        "notes": ""
+      },
+      {
+        "name": "flag_51",
+        "type": "int32",
+        "nullable": false,
+        "isLikelyKey": false,
+        "notes": ""
+      },
+      {
+        "name": "flag_52",
+        "type": "int32",
+        "nullable": false,
+        "isLikelyKey": false,
+        "notes": ""
+      },
+      {
+        "name": "flag_53",
+        "type": "int32",
+        "nullable": false,
+        "isLikelyKey": false,
+        "notes": ""
+      }
+    ],
+    "source": "ko-tbl-reader parser (read-only)"
+  },
+  "semanticContext": {
+    "title": "Item_Ext_1_us item catalog",
+    "description": "Lists client-facing items, stats, and presentation attributes referenced in UI and gameplay.",
+    "domain": "items",
+    "tags": [
+      "item",
+      "loot",
+      "label",
+      "id"
+    ],
+    "confidence": 0.72,
+    "tableRole": "content",
+    "rowInterpretation": "Each row likely corresponds to one in-game item record."
+  },
+  "deductions": {
+    "guesses": [
+      {
+        "statement": "Lists client-facing items, stats, and presentation attributes referenced in UI and gameplay.",
+        "confidence": 0.72,
+        "evidence": [
+          "column:id",
+          "column:prefix",
+          "column:baseID"
+        ]
+      }
+    ],
+    "relationships": [
+      {
+        "type": "references",
+        "targetTable": "Skill",
+        "viaColumn": "magicOrRare",
+        "confidence": 0.4
+      },
+      {
+        "type": "references",
+        "targetTable": "Skill",
+        "viaColumn": "magicResistance",
+        "confidence": 0.4
+      }
+    ]
+  },
+  "examples": {
+    "sampleRows": [
+      {
+        "id": 0,
+        "prefix": "",
+        "baseID": 0,
+        "description": "������",
+        "flag_5": 0,
+        "resrcID": 0,
+        "iconID": 0,
+        "magicOrRare": 0,
+        "damage": 0,
+        "attackIntervalRatio": 100,
+        "hitRate": 0,
+        "evationRate": 0,
+        "maxDurability": 0,
+        "priceMultiply": 1,
+        "defense": 0,
+        "damageFire": 0,
+        "damageIce": 0,
+        "damageLightning": 0,
+        "damagePoison": 0,
+        "hpAbsorption": 0,
+        "mpDamage": 0,
+        "mpAbsorption": 0,
+        "physicalHitReflection": 0,
+        "soulBind": 0,
+        "strStatBonus": 0,
+        "staStatBonus": 0,
+        "dexStatBonus": 0,
+        "intStatBonus": 0,
+        "mpStatBonus": 0,
+        "hpBonus": 0,
+        "mpBonus": 0,
+        "fireResistance": 0,
+        "iceResistance": 0,
+        "lightningResistance": 0,
+        "magicResistance": 0,
+        "poisonResistance": 0,
+        "curseResistance": 0,
+        "effectID1": 0,
+        "effectID2": 0,
+        "needLevel": 0,
+        "needRank": 0,
+        "needTitle": 0,
+        "needStr": 0,
+        "needStamina": 0,
+        "needDex": 0,
+        "needInt": 0,
+        "needMp": 0,
+        "flag_48": 0,
+        "column_49": 0,
+        "flag_50": 0,
+        "flag_51": 0,
+        "flag_52": 0,
+        "flag_53": 0
+      },
+      {
+        "id": 1,
+        "prefix": "Upgrade",
+        "baseID": 0,
+        "description": "���׷��̵�⺻��",
+        "flag_5": 0,
+        "resrcID": 0,
+        "iconID": 0,
+        "magicOrRare": 5,
+        "damage": 0,
+        "attackIntervalRatio": 100,
+        "hitRate": 0,
+        "evationRate": 0,
+        "maxDurability": 0,
+        "priceMultiply": 2,
+        "defense": 0,
+        "damageFire": 0,
+        "damageIce": 0,
+        "damageLightning": 0,
+        "damagePoison": 0,
+        "hpAbsorption": 0,
+        "mpDamage": 0,
+        "mpAbsorption": 0,
+        "physicalHitReflection": 0,
+        "soulBind": 0,
+        "strStatBonus": 0,
+        "staStatBonus": 0,
+        "dexStatBonus": 0,
+        "intStatBonus": 0,
+        "mpStatBonus": 0,
+        "hpBonus": 0,
+        "mpBonus": 0,
+        "fireResistance": 0,
+        "iceResistance": 0,
+        "lightningResistance": 0,
+        "magicResistance": 0,
+        "poisonResistance": 0,
+        "curseResistance": 0,
+        "effectID1": 0,
+        "effectID2": 0,
+        "needLevel": 0,
+        "needRank": 0,
+        "needTitle": 0,
+        "needStr": 0,
+        "needStamina": 0,
+        "needDex": 0,
+        "needInt": 0,
+        "needMp": 0,
+        "flag_48": 0,
+        "column_49": 0,
+        "flag_50": 0,
+        "flag_51": 0,
+        "flag_52": 0,
+        "flag_53": 0
+      }
+    ],
+    "rowInterpretation": "Each row likely corresponds to one in-game item record."
+  },
+  "aiGuidance": {
+    "useCases": [
+      "Item tooltip generation",
+      "Balance audit prompts",
+      "Icon lookup"
+    ],
+    "safeEdits": [
+      "Adjusting descriptive text",
+      "Adding new cosmetic tags",
+      "Updating icon references"
+    ],
+    "dangerousEdits": [
+      "Modifying primary item IDs",
+      "Removing requirement columns",
+      "Changing stat columns blindly"
+    ],
+    "commonQuestions": [
+      "Which column controls item grade?",
+      "How do I add crafting recipes?",
+      "Where are icon assets referenced?"
+    ]
+  }
+}

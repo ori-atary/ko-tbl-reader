@@ -1,0 +1,126 @@
+{
+  "table": {
+    "tblFile": "help_us.tbl",
+    "baseName": "help_us",
+    "rowCount": 50,
+    "columnCount": 6,
+    "tableRole": "legacy"
+  },
+  "schema": {
+    "columns": [
+      {
+        "name": "id",
+        "type": "int32",
+        "nullable": false,
+        "isLikelyKey": true,
+        "notes": "Name provided by schema detector"
+      },
+      {
+        "name": "levelMin",
+        "type": "int32",
+        "nullable": false,
+        "isLikelyKey": false,
+        "notes": "Name provided by schema detector"
+      },
+      {
+        "name": "levelMax",
+        "type": "int32",
+        "nullable": false,
+        "isLikelyKey": false,
+        "notes": "Name provided by schema detector"
+      },
+      {
+        "name": "class",
+        "type": "int32",
+        "nullable": false,
+        "isLikelyKey": false,
+        "notes": "Name provided by schema detector"
+      },
+      {
+        "name": "title",
+        "type": "string",
+        "nullable": false,
+        "isLikelyKey": false,
+        "notes": "Name provided by schema detector"
+      },
+      {
+        "name": "description",
+        "type": "string",
+        "nullable": false,
+        "isLikelyKey": false,
+        "notes": "Name provided by schema detector"
+      }
+    ],
+    "source": "ko-tbl-reader parser (read-only)"
+  },
+  "semanticContext": {
+    "title": "help_us system table",
+    "description": "Contains system configuration or legacy lookup data relied on by the client runtime.",
+    "domain": "system",
+    "tags": [
+      "system",
+      "label",
+      "id"
+    ],
+    "confidence": 0.45,
+    "tableRole": "legacy",
+    "rowInterpretation": "Each row is a generic system configuration entry."
+  },
+  "deductions": {
+    "guesses": [
+      {
+        "statement": "Contains system configuration or legacy lookup data relied on by the client runtime.",
+        "confidence": 0.45,
+        "evidence": [
+          "column:id",
+          "column:levelMin",
+          "column:levelMax"
+        ]
+      }
+    ],
+    "relationships": []
+  },
+  "examples": {
+    "sampleRows": [
+      {
+        "id": 1,
+        "levelMin": 1,
+        "levelMax": 10,
+        "class": 100,
+        "title": "New Warrior's Weapon",
+        "description": "Hunt Worms and collect 5 Silk Bundles.  Take these to Proconsul(304,354) in Moradon and he�ll give you a weapon, HP or MP potions. "
+      },
+      {
+        "id": 2,
+        "levelMin": 1,
+        "levelMax": 10,
+        "class": 100,
+        "title": "Issac's Request",
+        "description": "Go pay a visit to Isaac in Moradon(315,342). He�ll send you on a quest, which will be rewarded with various kinds of potions and experience points. \n\nWorm Extermination � He�ll ..."
+      }
+    ],
+    "rowInterpretation": "Each row is a generic system configuration entry."
+  },
+  "aiGuidance": {
+    "useCases": [
+      "Configuration explanation",
+      "Legacy data decoding",
+      "Automated cleanup prompts"
+    ],
+    "safeEdits": [
+      "Documenting discovered meaning",
+      "Adding new rows in unused ranges",
+      "Annotating optional columns"
+    ],
+    "dangerousEdits": [
+      "Changing control flags",
+      "Removing unknown columns",
+      "Overwriting IDs with unclear usage"
+    ],
+    "commonQuestions": [
+      "What does this flag represent?",
+      "How is this table consumed?",
+      "Is it safe to add new rows?"
+    ]
+  }
+}

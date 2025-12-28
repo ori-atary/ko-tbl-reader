@@ -1,0 +1,290 @@
+{
+  "table": {
+    "tblFile": "Zones.tbl",
+    "baseName": "Zones",
+    "rowCount": 44,
+    "columnCount": 24,
+    "tableRole": "core"
+  },
+  "schema": {
+    "columns": [
+      {
+        "name": "id",
+        "type": "int32",
+        "nullable": false,
+        "isLikelyKey": true,
+        "notes": "Name provided by schema detector"
+      },
+      {
+        "name": "terrainFile",
+        "type": "string",
+        "nullable": false,
+        "isLikelyKey": false,
+        "notes": "Name provided by schema detector"
+      },
+      {
+        "name": "name",
+        "type": "string",
+        "nullable": false,
+        "isLikelyKey": false,
+        "notes": "Name provided by schema detector"
+      },
+      {
+        "name": "colorMapFile",
+        "type": "string",
+        "nullable": false,
+        "isLikelyKey": false,
+        "notes": "Name provided by schema detector"
+      },
+      {
+        "name": "lightMapFile",
+        "type": "string",
+        "nullable": false,
+        "isLikelyKey": false,
+        "notes": "Name provided by schema detector"
+      },
+      {
+        "name": "objectDataFile",
+        "type": "string",
+        "nullable": false,
+        "isLikelyKey": false,
+        "notes": "Name provided by schema detector"
+      },
+      {
+        "name": "resourcePath_7",
+        "type": "string",
+        "nullable": false,
+        "isLikelyKey": false,
+        "notes": ""
+      },
+      {
+        "name": "miniMapFile",
+        "type": "string",
+        "nullable": false,
+        "isLikelyKey": false,
+        "notes": "Name provided by schema detector"
+      },
+      {
+        "name": "skybox",
+        "type": "string",
+        "nullable": false,
+        "isLikelyKey": false,
+        "notes": "Name provided by schema detector"
+      },
+      {
+        "name": "showEnemyPlayers",
+        "type": "int32",
+        "nullable": false,
+        "isLikelyKey": false,
+        "notes": "Name provided by schema detector"
+      },
+      {
+        "name": "sunDirection",
+        "type": "int32",
+        "nullable": false,
+        "isLikelyKey": false,
+        "notes": "Name provided by schema detector"
+      },
+      {
+        "name": "lightObjectFile",
+        "type": "string",
+        "nullable": false,
+        "isLikelyKey": false,
+        "notes": "Name provided by schema detector"
+      },
+      {
+        "name": "resourcePath_13",
+        "type": "string",
+        "nullable": false,
+        "isLikelyKey": false,
+        "notes": ""
+      },
+      {
+        "name": "flag_14",
+        "type": "int32",
+        "nullable": false,
+        "isLikelyKey": false,
+        "notes": ""
+      },
+      {
+        "name": "resourcePath_15",
+        "type": "string",
+        "nullable": false,
+        "isLikelyKey": false,
+        "notes": ""
+      },
+      {
+        "name": "value_16",
+        "type": "float",
+        "nullable": false,
+        "isLikelyKey": false,
+        "notes": ""
+      },
+      {
+        "name": "resourcePath_17",
+        "type": "string",
+        "nullable": false,
+        "isLikelyKey": false,
+        "notes": ""
+      },
+      {
+        "name": "column_18",
+        "type": "int32",
+        "nullable": false,
+        "isLikelyKey": false,
+        "notes": ""
+      },
+      {
+        "name": "column_19",
+        "type": "int32",
+        "nullable": false,
+        "isLikelyKey": false,
+        "notes": ""
+      },
+      {
+        "name": "column_20",
+        "type": "int32",
+        "nullable": false,
+        "isLikelyKey": false,
+        "notes": ""
+      },
+      {
+        "name": "column_21",
+        "type": "int32",
+        "nullable": false,
+        "isLikelyKey": false,
+        "notes": ""
+      },
+      {
+        "name": "resourcePath_22",
+        "type": "string",
+        "nullable": true,
+        "isLikelyKey": false,
+        "notes": ""
+      },
+      {
+        "name": "flag_23",
+        "type": "int32",
+        "nullable": false,
+        "isLikelyKey": false,
+        "notes": ""
+      },
+      {
+        "name": "resourcePath_24",
+        "type": "string",
+        "nullable": true,
+        "isLikelyKey": false,
+        "notes": ""
+      }
+    ],
+    "source": "ko-tbl-reader parser (read-only)"
+  },
+  "semanticContext": {
+    "title": "Zones zone metadata",
+    "description": "Defines playable zones, map metadata, and supporting files used across the client.",
+    "domain": "zones",
+    "tags": [
+      "zone",
+      "map",
+      "terrain",
+      "label",
+      "id"
+    ],
+    "confidence": 0.72,
+    "tableRole": "core",
+    "rowInterpretation": "Each row captures a single zone definition used by the client."
+  },
+  "deductions": {
+    "guesses": [
+      {
+        "statement": "Defines playable zones, map metadata, and supporting files used across the client.",
+        "confidence": 0.72,
+        "evidence": [
+          "column:id",
+          "column:terrainFile",
+          "column:name"
+        ]
+      }
+    ],
+    "relationships": []
+  },
+  "examples": {
+    "sampleRows": [
+      {
+        "id": 0,
+        "terrainFile": "knightonline.exe",
+        "name": "empty",
+        "colorMapFile": "�������� üũ ����",
+        "lightMapFile": "empty",
+        "objectDataFile": "empty",
+        "resourcePath_7": "empty",
+        "miniMapFile": "empty",
+        "skybox": "empty",
+        "showEnemyPlayers": 0,
+        "sunDirection": 0,
+        "lightObjectFile": "empty",
+        "resourcePath_13": "empty",
+        "flag_14": 0,
+        "resourcePath_15": "empty",
+        "value_16": 0,
+        "resourcePath_17": "empty",
+        "column_18": 0,
+        "column_19": 0,
+        "column_20": 0,
+        "column_21": 0,
+        "resourcePath_22": "",
+        "flag_23": 1,
+        "resourcePath_24": ""
+      },
+      {
+        "id": 10,
+        "terrainFile": "Zones\\karus2004.gtd",
+        "name": "karus2004",
+        "colorMapFile": "Zones\\karus2004.tct",
+        "lightMapFile": "Zones\\karus2004.tlt",
+        "objectDataFile": "Zones\\karus2004.opd",
+        "resourcePath_7": "Reserved",
+        "miniMapFile": "Zones\\karus2004.dxt",
+        "skybox": "Misc\\Sky\\Karus.N3Sky",
+        "showEnemyPlayers": 1,
+        "sunDirection": 0,
+        "lightObjectFile": "Zones\\karus_start.glo ",
+        "resourcePath_13": "Zones\\karus2004.gev",
+        "flag_14": 0,
+        "resourcePath_15": "Zones\\karus2004.ens",
+        "value_16": 1,
+        "resourcePath_17": "Zones\\karus2004.flag",
+        "column_18": 20003,
+        "column_19": 20000,
+        "column_20": 20002,
+        "column_21": 20000,
+        "resourcePath_22": "Zones\\karus2004.opdsub",
+        "flag_23": 1,
+        "resourcePath_24": "Zones\\event_ka.evtsub"
+      }
+    ],
+    "rowInterpretation": "Each row captures a single zone definition used by the client."
+  },
+  "aiGuidance": {
+    "useCases": [
+      "Map/zone summarization",
+      "Teleport destination validation",
+      "Mini-map metadata lookup"
+    ],
+    "safeEdits": [
+      "Updating descriptive names",
+      "Adjusting minimap asset references",
+      "Adding new zone display rows"
+    ],
+    "dangerousEdits": [
+      "Changing zone IDs referenced elsewhere",
+      "Removing rows in live maps",
+      "Renaming terrain files without assets"
+    ],
+    "commonQuestions": [
+      "How do I add a new zone?",
+      "Which column controls the visible name?",
+      "Where do minimap textures get referenced?"
+    ]
+  }
+}

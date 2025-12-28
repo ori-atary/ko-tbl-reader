@@ -1,0 +1,96 @@
+{
+  "table": {
+    "tblFile": "Texts_us.tbl",
+    "baseName": "Texts_us",
+    "rowCount": 1557,
+    "columnCount": 2,
+    "tableRole": "content"
+  },
+  "schema": {
+    "columns": [
+      {
+        "name": "id",
+        "type": "int32",
+        "nullable": false,
+        "isLikelyKey": true,
+        "notes": "Auto-labeled as primary identifier"
+      },
+      {
+        "name": "text",
+        "type": "string",
+        "nullable": false,
+        "isLikelyKey": false,
+        "notes": ""
+      }
+    ],
+    "source": "ko-tbl-reader parser (read-only)"
+  },
+  "semanticContext": {
+    "title": "Texts_us localized strings",
+    "description": "Provides localized strings, tooltips, and messages surfaced to the player.",
+    "domain": "strings",
+    "tags": [
+      "localization",
+      "ui",
+      "id"
+    ],
+    "confidence": 0.72,
+    "tableRole": "content",
+    "rowInterpretation": "Each row stores one localized text record."
+  },
+  "deductions": {
+    "guesses": [
+      {
+        "statement": "Provides localized strings, tooltips, and messages surfaced to the player.",
+        "confidence": 0.72,
+        "evidence": [
+          "column:id",
+          "column:text"
+        ]
+      }
+    ],
+    "relationships": [
+      {
+        "type": "lookup_for",
+        "targetTable": "Texts",
+        "viaColumn": "text",
+        "confidence": 0.4
+      }
+    ]
+  },
+  "examples": {
+    "sampleRows": [
+      {
+        "id": 1001,
+        "text": "Failed designating re-spawn point. "
+      },
+      {
+        "id": 1002,
+        "text": "The re-spawn point is too far away. "
+      }
+    ],
+    "rowInterpretation": "Each row stores one localized text record."
+  },
+  "aiGuidance": {
+    "useCases": [
+      "Localization review",
+      "UI copy assistance",
+      "String consistency checking"
+    ],
+    "safeEdits": [
+      "Fixing typos",
+      "Adding new localized rows",
+      "Updating phrasing for clarity"
+    ],
+    "dangerousEdits": [
+      "Changing string IDs without coordination",
+      "Deleting strings used by UI",
+      "Reordering keys relied upon by code"
+    ],
+    "commonQuestions": [
+      "Where is this UI label defined?",
+      "How do I add a translation?",
+      "Are these strings namespaced?"
+    ]
+  }
+}
